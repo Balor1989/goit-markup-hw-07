@@ -1,20 +1,6 @@
-html {
-  box-sizing: border-box;
-}
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: roboto, sans-serif;
-  color: var(--secondary-text-color);
-  letter-spacing: 0.03em;
-}
 :root {
   --hero-text-color: #ffffff;
   --primary-text-color: #212121;
-  --secondary-text-color: #757575;
   --footer-bgc: #2f303a;
   --footer-text-color: #ffffff;
   --accent-color: #2196f3;
@@ -22,7 +8,6 @@ body {
   --button-bgc-color: #f5f4fa;
   --accent-button: #ffffff;
   --accent-bgc-button: #2196f3;
-  --web-logo-color: #2196f3;
   --studio-logo-color: #000000;
   --nav-color: #212121;
 
@@ -30,14 +15,6 @@ body {
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-p {
-  margin: 0;
-}
 .thesis-box h2 {
   margin: 0;
   display: none;
@@ -47,22 +24,10 @@ p {
   display: none;
 }
 /* Header style */
-.header-section {
-  padding-top: 25px;
-  padding-bottom: 24px;
-}
 .portfolio {
   border-bottom: solid 1px var(--border-color);
 }
-.header-box {
-  display: flex;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
-}
+
 .second {
   margin-left: 93px;
 }
@@ -70,23 +35,6 @@ p {
   margin-left: auto;
 }
 /* Logo style */
-.logo {
-  text-decoration: none;
-}
-.web-logo {
-  color: var(--web-logo-color);
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-.studio-logo {
-  color: var(--studio-logo-color);
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
 
 /* Nav style */
 .site-nav {
