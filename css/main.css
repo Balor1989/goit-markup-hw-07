@@ -44,6 +44,10 @@ p {
   padding-right: 15px;
 }
 
+.header--active {
+  border-bottom: solid 1px #f5f4fa;
+}
+
 .logo {
   text-decoration: none;
 }

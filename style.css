@@ -4,17 +4,7 @@
   --footer-bgc: #2f303a;
   --footer-text-color: #ffffff;
 
-  --button-bgc-color: #f5f4fa;
-
   --border-color: #f5f4fa;
-}
-
-.portfolio-box h1 {
-  display: none;
-}
-/* Header style */
-.portfolio {
-  border-bottom: solid 1px var(--border-color);
 }
 
 /* Contacts style  */
@@ -23,20 +13,6 @@
 
 /* buttons */
 
-.portfolio-button {
-  font-family: roboto, sans-serif;
-  color: var(--button-color);
-  background-color: var(--button-bgc-color);
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  transition: all 250ms var(--cubic-bezier);
-
-  border-radius: 6px;
-  padding: 5px 21px;
-  border: solid 1px var(--border-color);
-}
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--accent-button);
@@ -45,25 +21,7 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
   border: solid 1px #2196f3;
 }
-.button-section > li:not(:last-child) {
-  margin-right: 8px;
-}
-.main-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.portfolio-box {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.button-section {
-  display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
-}
+
 .portfolio-projects {
   display: flex;
   flex-wrap: wrap;
@@ -144,14 +102,4 @@
 .portfolio-project:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.accept-box:checked + .check-place {
-  background-color: var(--accent-color);
-  border: 2px solid var(--accent-color);
-  background-image: url(../images/accept.svg);
-  background-size: contain;
-  background-origin: border-box;
-  background-position: center;
-  background-repeat: no-repeat;
 }
