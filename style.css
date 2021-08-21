@@ -3,24 +3,19 @@
   --primary-text-color: #212121;
   --footer-bgc: #2f303a;
   --footer-text-color: #ffffff;
-  --accent-color: #2196f3;
   --button-color: #212121;
   --button-bgc-color: #f5f4fa;
   --accent-button: #ffffff;
   --accent-bgc-button: #2196f3;
   --studio-logo-color: #000000;
-  --nav-color: #212121;
 
   --border-color: #f5f4fa;
-  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .thesis-box h2 {
-  margin: 0;
   display: none;
 }
 .portfolio-box h1 {
-  margin: 0;
   display: none;
 }
 /* Header style */
@@ -28,48 +23,10 @@
   border-bottom: solid 1px var(--border-color);
 }
 
-.second {
-  margin-left: 93px;
-}
 .third {
   margin-left: auto;
 }
-/* Logo style */
 
-/* Nav style */
-.site-nav {
-  display: flex;
-}
-
-.site-nav .list {
-  color: var(--nav-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  transition: color 250ms var(--cubic-bezier);
-}
-.site-nav .list:hover,
-.site-nav .list:focus {
-  color: var(--accent-color);
-}
-.site-nav .list-menu {
-  position: relative;
-  padding: 32px 0;
-  color: var(--accent-color);
-}
-.site-nav .list-menu::after {
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: 1.5px;
-  border-radius: 2px;
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-}
 /* Contacts style  */
 .contacts-box {
   display: flex;
